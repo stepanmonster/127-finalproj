@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #eee;
+  padding: 10px 20px;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.terminal-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.map-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.map {
+  width: 90%;
+  height: 200px;
+  background-color: #ddd;
+  margin: 0 auto;
+  position: relative;
+}
+
+.map-label {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.table-section {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.route-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ccc;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.table-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.save-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.saved-routes-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+.saved-routes-section select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.estimates {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.estimates div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.estimates input {
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+.center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 100px); /* Adjust height considering header */
+}
+
+.login-container {
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #0077b6;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #005f87;
+}
